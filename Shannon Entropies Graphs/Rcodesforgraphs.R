@@ -1,0 +1,6 @@
+library(ggplot2)
+library(readr)
+entropyvalues <- read_csv("~/Desktop/shannon entropy/entropyvalues.csv")
+newfasta75_96 <- read_csv("~/Desktop/shannon entropy/newfasta75-96.csv")
+ggplot(newfasta75_96, aes(x=aa,y=value))+geom_histogram(stat='identity')
+ggplot(entropyvalues, aes(x=aa,y=value, color=domain))+geom_histogram(stat='identity')

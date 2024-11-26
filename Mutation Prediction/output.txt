@@ -1,0 +1,58 @@
+  Meta-SNP: Meta-predictor of disease causing variants
+  Cite: Capriotti et al. BMC Genomics 2013. Suppl 3:S2.
+  WEB: http://snps.biofold.org/meta-snp
+
+
+  Sequence File: 1-HOMO.seq
+
+  Mutation   PANTHER   PhD-SNP      SIFT      SNAP  Meta-SNP   RI   Profile
+      R75P   Disease   Disease   Disease   Disease   Disease    8   F[R]=99%  F[P]=0%   Nali=400
+               0.820     0.952     0.000     0.850     0.923
+      R75Q   Disease   Disease   Disease   Disease   Disease    7   F[R]=99%  F[Q]=0%   Nali=400
+               0.659     0.911     0.000     0.805     0.838
+      R75W   Disease   Disease   Disease   Disease   Disease    8   F[R]=99%  F[W]=0%   Nali=400
+               0.933     0.948     0.000     0.825     0.897
+      S85C   Disease   Disease   Neutral   Disease   Disease    2   F[S]=65%  F[C]=4%   Nali=403
+               0.579     0.727     0.060     0.585     0.601
+      A96V   Disease   Neutral   Neutral   Neutral   Disease    1   F[A]=32%  F[V]=15%  Nali=392
+               0.621     0.299     0.580     0.245     0.564
+     Y135A   Disease   Disease   Disease   Disease   Disease    9   F[Y]=100% F[A]=0%   Nali=377
+               0.997     0.942     0.000     0.770     0.925
+     Y135C   Disease   Disease   Disease   Disease   Disease    9   F[Y]=100% F[C]=0%   Nali=377
+               0.999     0.967     0.000     0.815     0.961
+     Y135E   Disease   Disease   Disease   Disease   Disease    9   F[Y]=100% F[E]=0%   Nali=377
+               0.998     0.966     0.000     0.830     0.950
+     Y135K   Disease   Disease   Disease   Disease   Disease    9   F[Y]=100% F[K]=0%   Nali=377
+               0.998     0.963     0.000     0.830     0.952
+     Y135N   Disease   Disease   Disease   Disease   Disease    9   F[Y]=100% F[N]=0%   Nali=377
+               0.998     0.963     0.000     0.790     0.952
+     Y135Q   Disease   Disease   Disease   Disease   Disease    9   F[Y]=100% F[Q]=0%   Nali=377
+               0.998     0.958     0.000     0.790     0.951
+     Y135S   Disease   Disease   Disease   Disease   Disease    9   F[Y]=100% F[S]=0%   Nali=377
+               0.997     0.959     0.000     0.770     0.927
+     Y135T   Disease   Disease   Disease   Disease   Disease    9   F[Y]=100% F[T]=0%   Nali=377
+               0.998     0.944     0.000     0.785     0.949
+     V136A   Neutral   Disease   Neutral   Disease   Disease    2   F[V]=44%  F[A]=2%   Nali=378
+               0.307     0.804     0.050     0.520     0.592
+     V136F   Neutral   Disease   Disease   Disease   Disease    6   F[V]=44%  F[F]=1%   Nali=378
+               0.375     0.938     0.000     0.630     0.786
+     V136P   Disease   Disease   Disease   Disease   Disease    8   F[V]=44%  F[P]=0%   Nali=378
+               0.657     0.966     0.000     0.725     0.892
+
+
+  Mutation: WT+POS+NEW
+    WT: Residue in wild-type protein
+    POS: Residue position
+    NEW: New residue after mutation
+  Prediction:
+    Neutral: Neutral variants
+    Disease: Disease causing variants
+  Outputs: Value reported under each prediction
+    PANTHER: Between 0 and 1. (If >0.5 mutation is predicted Disease)
+    PhD-SNP: Between 0 and 1. (If >0.5 mutation is predicted Disease)
+    SIFT: Positive Value (If >0.05 mutation is predicted Neutral)
+    SNAP: Output normailzed between 0 and 1 (If >0.5 mutation is predicted Disease)
+    Meta-SNP: Between 0 and 1. (If >0.5 mutation is predicted Disease)
+  RI: Reliability Index between 0 an 10
+  F[X]: Frequency of residue X in the sequence profile
+  Nali: Number of aligned sequences in the mutated site
