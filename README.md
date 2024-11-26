@@ -1,4 +1,4 @@
-# ENS210 Term Project of Group 5
+# ENS210 Term Project
 
 ## 1. Purpose
   The aim of this project is to identify the most conserved domains of the GJB1
