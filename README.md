@@ -44,9 +44,5 @@
   * Meta SNP --> To find disease probabilities of spesific mutations
   * GenBank --> To find sequences of different species that have GJB1 protein
   
-## 4. Group Members
-* Ali Eren Ak - akali@sabanciuniv.edu
-* Ece Ulutaş  - kaantemel@sabanciuniv.edu
-* Kaan Temel  - eceulutas@sabanciuniv.edu
 
 
