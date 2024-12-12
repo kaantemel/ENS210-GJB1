@@ -215,7 +215,3 @@ construct for a more in-depth analysis.
 [12] “Transporter Classification Database.” TCDB " SEARCH, www.tcdb.org/search/result.php?acc=P08034. 
 ```
   
-## 6. Group Members
-* Ali Eren Ak - akali@sabanciuniv.edu
-* Ece Ulutaş  - kaantemel@sabanciuniv.edu
-* Kaan Temel  - eceulutas@sabanciuniv.edu
